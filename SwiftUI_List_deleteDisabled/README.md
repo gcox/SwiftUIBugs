@@ -1,3 +1,5 @@
+# FB11189737
+
 In iOS 16, the `deleteDisabled` modifier does not correctly suppress the delete buttons on `List` rows.
 
 A common use case of mine is to have a `List` that needs to support swipe-to-delete in non-edit mode and multiple selection while in edit mode. In edit mode, deletion would be facilitated by selecting the rows the user wants to delete, then tapping a button or menu item to apply some action to all those rows (deletion being one of the available actions). 
